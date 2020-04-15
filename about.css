@@ -1,0 +1,56 @@
+body{
+background-color: black;
+animation: fadeInAnimation ease 9s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  50%{
+    opacity: 0.8;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
+.text{
+  color: white;
+  font-family: "Helvetica", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.1rem;
+  position: absolute;
+  left:25%;
+  top:25%;
+}
+
+.text:hover{
+  filter: blur(4px);
+}
+
+.back{
+  color: white;
+  font-family: "Helvetica", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.1rem;
+  position: absolute;
+  left:5%;
+  top:90%;
+}
+
+.back:hover{
+  filter: blur(4px);
+}
+
+a{
+color:white;
+text-decoration: none;
+}
+
+a:visited{
+color:white;
+text-decoration: none;
+}
